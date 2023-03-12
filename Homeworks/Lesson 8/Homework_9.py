@@ -19,5 +19,5 @@ print(random_number_list)
 
 for x in number_count:
     print(f"Число {x} встречается в первоначальном списке {number_count.get(x)}",
-          (lambda x=1: "разa" if x % 10 in range(2, 5) and x not in range(11, 15) else "раз")
+          (lambda x: "разa" if x % 10 in range(2, 5) and x not in range(11, 15) else "раз")
           (number_count.get(x)))
