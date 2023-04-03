@@ -22,7 +22,7 @@ class Auto(object):
 
 class Truck(Auto):
     def __init__(self, brand, age, mark, max_load, color="Red", weight=1000):
-        super().__init__(brand, age, mark, color="Red", weight=1000)
+        super().__init__(brand, age, mark, color, weight)
         self.max_load = max_load
 
     def move(self):
@@ -37,7 +37,7 @@ class Truck(Auto):
 
 class Car(Auto):
     def __init__(self, brand, age, mark, max_speed, color="Red", weight=1000):
-        super().__init__(brand, age, mark, color="Red", weight=1000)
+        super().__init__(brand, age, mark, color, weight)
         self.max_speed = max_speed
 
     def move(self):
