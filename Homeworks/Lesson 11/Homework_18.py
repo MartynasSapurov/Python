@@ -8,10 +8,10 @@ class Auto(object):
         self.weight = weight
 
     def move(self):
-        print('Woof')
+        print('«move»')
 
     def stop(self):
-        print('Woof')
+        print('«stop»')
 
     def birthday(self):
         self.age += 1
