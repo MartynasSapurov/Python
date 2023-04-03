@@ -26,8 +26,9 @@ class Truck(Auto):
         self.max_load = max_load
 
     def move(self):
-        super().move()
         print('«attention»')
+        super().move()
+        
 
     def load(self):
         time.sleep(1)
@@ -41,7 +42,6 @@ class Car(Auto):
         self.max_speed = max_speed
 
     def move(self):
-        super().move()
         print(f"«max speed is {self.max_speed}»")
 
 
