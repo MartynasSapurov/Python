@@ -61,8 +61,8 @@ class Circle(Point):
 
 first_circle = Circle(5, 3, 4)
 second_circle = Circle(10, 4, 1)
-
 print(first_circle - second_circle)
+
 second_circle = Circle(5, 4, 1)
 print(first_circle - second_circle)
 
