@@ -32,6 +32,10 @@ def string_checker(my_input):
             if not my_input.replace('.', '').isdigit():
                 invalid_value = True
 
+    if not invalid_value and not fractional_flag:
+            if not my_input.isdigit():
+                invalid_value = True
+
     negative = "отрицательное" if negative_flag else "положительное"
     Negative = "дробное" if fractional_flag else "целое"
 
